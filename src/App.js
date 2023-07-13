@@ -1,9 +1,13 @@
 import './App.css';
+import ExpenseApp from './components/ExpenseApp';
 
 function App() {
   return (
     <div className="App">
-      hi
+      <header>
+        <h2>Expense tracker</h2>
+      </header>
+      <ExpenseApp/>
     </div>
   );
 }

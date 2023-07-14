@@ -24,7 +24,7 @@ const TransActionComponent = ({transactionsProps}) => {
         filterTransactions(searchItem)
     },[transactionsProps])
 
-    if(!transactionsProps.length) return <h3>add some transactions</h3>
+    if(!transactionsProps.length) return <h4 style={{paddingTop:10}}>add some transactions</h4>
 
     return ( 
         <section>

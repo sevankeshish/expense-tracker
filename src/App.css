@@ -113,3 +113,13 @@ input[type="radio"]{
   font-weight: bold;
   border-right: 4px solid green;
 }
+
+input.search{
+  display: block;
+  border-radius: 5px;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  background-color: #efefef;
+  margin-top:20px;
+  width:100%;
+}

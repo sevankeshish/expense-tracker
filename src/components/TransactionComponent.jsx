@@ -1,8 +1,7 @@
 const TransActionComponent = ({transactionsProps}) => {
     return ( 
         <section>
-            {transactionsProps.length &&
-            transactionsProps.map((t) => (
+            {transactionsProps.map((t) => (
                 <div className="transaction" style={{borderRight: t.type === "expense" && "4px solid red"}} key={t.id}>
                     <span>{t.desc}</span>
                     <span>$ {t.amount}</span>

@@ -4,7 +4,7 @@ const TransactionForm = ({addTrancsaction}) => {
     const [formValues, setFormValues]= useState({desc:"",amount:0,type:"expense"})
 
     const changeHandler = (e) =>{
-        setFormValues({ ...formValues, [e.target.name] : [e.target.value]})
+        setFormValues({ ...formValues, [e.target.name] : e.target.value})
         console.log(formValues);
     }
 

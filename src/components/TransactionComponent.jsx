@@ -1,7 +1,9 @@
 const TransActionComponent = ({transactionsProps}) => {
     return ( 
         <section>
-            transactions !
+            {transactionsProps.map((t) => (
+                <div key={t.id}>{t.desc}</div>
+            ))}
         </section>
      );
 }
